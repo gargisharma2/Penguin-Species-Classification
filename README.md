@@ -10,11 +10,17 @@ To develop a machine learning model to accurately classify penguin species based
 
 # Steps Involved
 ✅ Data cleaning and handling missing values
+
 ✅ Exploratory Data Analysis (EDA) to identify patterns and trends
+
 ✅ Feature selection and scaling
+
 ✅ Model development and training using classification algorithms
+
 ✅ Model evaluation using accuracy and precision
+
 ✅ Data visualization using Tableau/Power BI
+
 
 # Results
 Achieved high accuracy in predicting penguin species.
