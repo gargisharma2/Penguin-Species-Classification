@@ -1,44 +1,51 @@
-# Penguin Species Classification
-This project involves building a classification model to identify penguin species based on physical characteristics such as bill length, flipper length, and body mass.
+# 🐧 Penguin Species Classification
+A machine learning project to classify three species of penguins — Adelie, Chinstrap, and Gentoo — using the Palmer Penguins dataset. This project applies data preprocessing, exploratory data analysis (EDA), and Random Forest classification to identify patterns and build a predictive model.
 
-# Dataset: 
-Palmer Penguins dataset
-Contains measurements for three species of penguins (Adelie, Chinstrap, and Gentoo) from the Palmer Archipelago in Antarctica.
+# 📌 Objective
+To build a robust classification model that can accurately identify penguin species based on physical and environmental features, offering a cleaner and more engaging alternative to the classic Iris dataset for ML exploration.
 
-# Objective
-To develop a machine learning model to accurately classify penguin species based on physical traits.
+# 🔍 Dataset
+- Source: https://github.com/allisonhorst/palmerpenguins
+- Features include: bill length, bill depth, flipper length, body mass, island, and sex.
 
-# Steps Involved
-✅ Data cleaning and handling missing values.
+# ⚙️ Tools & Libraries
+- Python, Jupyter Notebook
 
-✅ Exploratory Data Analysis (EDA) to identify patterns and trends.
+- Pandas, NumPy
 
-✅ Feature selection and scaling.
+- Matplotlib, Seaborn
 
-✅ Model development and training using classification algorithms.
+- Scikit-learn
 
-✅ Model evaluation using accuracy and precision.
+# 📊 Key Steps
+1. Data Cleaning: Removed null values and label-encoded categorical features (island, sex, species).
 
-✅ Data visualization using Tableau.
+2. Exploratory Data Analysis (EDA):
 
+ - Visualized distributions and pairwise relationships.
 
-# Results
-Achieved high accuracy in predicting penguin species.
-Identified key features influencing classification.
-Presented findings through interactive visualizations.
+ - Created a missing value heatmap and barplot.
 
-# Technologies Used
-Programming: Python (Pandas, NumPy, Scikit-learn)
-Visualization: Tableau, Power BI, Matplotlib, Seaborn
-Algorithms: Logistic Regression, Decision Trees, Random Forest
+3. Model Building:
 
-# How to Run
-1. Clone the repository:
-2. Install dependencies:
-3. Run the Jupyter Notebook:
+ - Used Random Forest Classifier for training and prediction.
 
+ - Achieved high accuracy on the test set.
 
+4. Evaluation:
 
+ - Accuracy score, classification report, confusion matrix.
 
+ - Feature importance visualization to interpret the model.
 
+# ✅ Results
+- The model accurately classified penguin species with strong performance metrics.
 
+- Key distinguishing features included flipper length, bill depth, and body mass.
+
+# 📌 Future Improvements
+- Try other models like XGBoost, SVM, or Logistic Regression
+
+- Use imputation for missing values instead of row removal
+
+- Deploy the model using Streamlit or Flask
